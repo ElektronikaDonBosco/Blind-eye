@@ -40,8 +40,8 @@ git clone https://github.com/dusty-nv/jetson-inference.git
 Each time to run the container follow the next steps:
 
 ```bash
-cd jetdon-inference
-docker/run.sh --volume path_to/Blind-eye/:/Blind-eye
+cd jetson-inference
+docker/run.sh --volume path_to/Blind-eye/:/Blind-eye #You must use your own computer path.
 ```
 
 ## Run inference
@@ -55,7 +55,7 @@ Also the change the wifi of the ESP8266 in line 13 of Arduino code.
 ![](assets/2023-05-03_101304.png)
 
 Once having done all the steps, run this in the docker terminal.
-
+ 
 ```bash
 cd /Blind-eye
 python3 main.py
