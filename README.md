@@ -1,14 +1,15 @@
+
 # Jetson Nano Object detection alarm
 
 Procedure to make inference in Jetson Nano.
 
 ## Set up Jetson Nano
-
+First of all you should set up Jetson Nano, so a good way to get acquainted is to  
 Go to [this](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#intro) step by step tutorial.
 
 ## Install dependecies and download packages
 
-Firs of all we will have to install python dependecies. For that open a terminal an execute the followin commands.
+First of all we will have to install python dependecies. For that open a terminal an execute the following commands.
 
 ```bash
 sudo apt-get update
@@ -19,7 +20,7 @@ sudo modprobe v4l2loopback
 sudo apt-get install nano 
 ```
 
-## Preàre the docker container
+## Prepare the docker container
 
 First of all we need to clone the repository of jetson inference and go to the folder jetson_inference.
 
