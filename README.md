@@ -9,7 +9,7 @@ Go to [this](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano
 
 ## Install dependecies and download packages
 
-First of all we will have to install python dependecies. For that open a terminal an execute the following commands.
+The next step will be to install python dependecies. For that open a terminal an execute the following commands.
 
 ```bash
 sudo apt-get update
@@ -22,8 +22,7 @@ sudo apt-get install nano
 
 ## Prepare the docker container
 
-First of all we need to clone the repository of jetson inference and go to the folder jetson_inference.
-
+To prepare the docker we need to clone the repository of jetson inference and enter the jetson_inference folder.
 ```bash
 git clone https://github.com/mikelalda/Blind-eye.git
 
