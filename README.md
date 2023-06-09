@@ -1,7 +1,7 @@
-
+Before starting with the Jetson Nano project we would like to thanks mikelalda for the help given during the project development.
 # Jetson Nano Object detection alarm
 
-Procedure to make inference in Jetson Nano.
+In the following lines you will see the procedure to make inference in Jetson Nano work we have used.
 
 ## Set up Jetson Nano
 First of all you should set up Jetson Nano, so a good way to get acquainted is to  
@@ -36,7 +36,7 @@ git clone https://github.com/dusty-nv/jetson-inference.git
 
 ```
 
-Each time to run the container follow the next steps:
+Each time you want to run the container follow the next steps:
 
 ```bash
 cd jetson-inference
@@ -49,7 +49,7 @@ In the file Alarm-Yolo/main.py we need to change the line 10 with ESP8266 IP add
 
 ![](assets/2023-05-03_101412.png)
 
-Also we need to change the wifi of the ESP8266 in line 13 of Arduino code.
+We also need to change the wifi of the ESP8266 in line 13 of Arduino code.
 
 ![](assets/2023-05-03_101304.png)
 
