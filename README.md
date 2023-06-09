@@ -45,7 +45,8 @@ docker/run.sh --volume path_to/Blind-eye/:/Blind-eye #You must use your own comp
 
 ## Run inference
 
-In the file Alarm-Yolo/main.py we need to change the line 10 with ESP8266 IP address. You cab see tge Alarm-Yolo instalation process by clicking [here] (https://github.com/ElektronikaDonBosco/Alarm-Yolo).
+In the file Alarm-Yolo/main.py we need to change the line 10 with ESP8266 IP address. You cab see tge Alarm-Yolo instalation process by clicking [this](https://github.com/ElektronikaDonBosco/Alarm-Yolo) guide.
+
 
 ![](assets/2023-05-03_101412.png)
 
