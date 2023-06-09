@@ -40,7 +40,7 @@ Each time you want to run the container follow the next steps:
 
 ```bash
 cd jetson-inference
-docker/run.sh --volume path_to/Blind-eye/:/Blind-eye #You must use your own computer path.
+docker/run.sh --volume /home/donbosco/jetson-inference/Blind-eye/:/Blind-eye #You must use your own computer path.
 ```
 
 ## Run inference
