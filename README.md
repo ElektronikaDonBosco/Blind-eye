@@ -45,7 +45,7 @@ docker/run.sh --volume /home/donbosco/jetson-inference/Blind-eye/:/Blind-eye #Yo
 
 ## Run inference
 
-In the file Blind-Eye/main.py we need to change the ESP8266 IP address in line 10. You can see the Blind-Eye instalation process by clicking [this](https://github.com/ElektronikaDonBosco/Blind-Eye) guide.
+In the file "Blind-Eye/main.py", we need to change the ESP8266 IP address in line 10. You can see the Blind-Eye instalation process by clicking [this](https://github.com/ElektronikaDonBosco/Blind-Eye) guide.
 
 
 ![](assets/2023-05-03_101412.png)
