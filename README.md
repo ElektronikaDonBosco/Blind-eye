@@ -1,9 +1,9 @@
 Before starting with the description of the project, we would like to thanks MikelAlda for the help given during the project development.
 # Jetson Nano Object detection sensor
 
-In the following lines, you will see the procedure to make inference in the Jetson Nano work we have used.
+In the following lines, you will see the procedure to make inference in the Jetson Nano code we have used.
 
-## Set up Jetson Nano
+## Jetson Nano set up
 First of all, you have to set up your Jetson Nano, so a good way to get acquainted is to  
 Go to [this](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#intro) step by step tutorial.
 
