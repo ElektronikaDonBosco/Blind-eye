@@ -22,13 +22,13 @@ sudo apt-get install nano
 
 ## Prepare the docker container
 
-To prepare the docker we need to clone the repository of jetson inference and enter the jetson_inference folder.
+To prepare the docker, we need to clone the repository of jetson inference and enter the jetson_inference folder.
 ```bash
 git clone https://github.com/mikelalda/Blind-eye.git
 
 ```
 
-Clone jetson-inference repository
+To clone the jetson-inference repository, use the next command:
 
 ```bash
 git clone https://github.com/dusty-nv/jetson-inference.git
@@ -36,7 +36,7 @@ git clone https://github.com/dusty-nv/jetson-inference.git
 
 ```
 
-Each time you want to run the container follow the next steps:
+Each time you want to run the container, follow the next code:
 
 ```bash
 cd jetson-inference
