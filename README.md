@@ -50,7 +50,7 @@ In the file "Blind-Eye/main.py", we need to change the ESP8266 IP address in lin
 
 ![](assets/2023-05-03_101412.png)
 
-#It may be necessary to change the Wi-Fi of the ESP8266 in line 13 of the Jetson Nano code.
+It may be necessary to change the Wi-Fi of the ESP8266 in line 13 of the Jetson Nano code.
 
 ![](assets/2023-05-03_101304.png)
 
