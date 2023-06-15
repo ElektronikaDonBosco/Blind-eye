@@ -5,7 +5,7 @@ In the following lines, you will see the procedure to make inference in the Jets
 
 ## Jetson Nano set up
 First of all, you have to set up your Jetson Nano, so a good way to get acquainted is to  
-Go to [this](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#intro) step by step tutorial.
+go to [this](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#intro) step by step tutorial.
 
 ## Install dependecies and download packages
 
