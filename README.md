@@ -1,5 +1,5 @@
-Before starting with the description of the project we would like to thanks MikelAlda for the help given during the project development.
-# Jetson Nano Object detection alarm
+Before starting with the description of the project, we would like to thanks MikelAlda for the help given during the project development.
+# Jetson Nano Object detection sensor
 
 In the following lines, you will see the procedure to make inference in the Jetson Nano work we have used.
 
