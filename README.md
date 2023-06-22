@@ -13,7 +13,7 @@ The software will be able to analyze the different things he sees and then he wo
 -WiFi connection
 
 ![ESP826MOD Sensor Module](nodemcu-esp8266-pinout.jpg)
-
+<img src="https://github.com/ElektronikaDonBosco/Blind-eye/blob/master/nodemcu-esp8266-pinout.jpg" width=50% height=50%>
 
 
 ## Jetson Nano
