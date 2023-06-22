@@ -5,7 +5,8 @@ The main objetive of this project is to gain the ability to distinguish differen
 The software will be able to analyze the different things he sees and then he would be able to transmit the information to the user.
 
 # Material used in the project
- 
+
+# Jetson Nano
 In the following lines, you will see the procedure to make inference in the Jetson Nano code we have used.
 
 ## Jetson Nano set up
