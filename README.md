@@ -12,7 +12,7 @@ The software will be able to analyze the different things he sees and then he wo
 -ESP826MOD Sensor module
 -WiFi connection
 
-![image](https://github.com/ElektronikaDonBosco/Blind-eye/assets/45638976/4d8dee78-248c-4dea-ae55-b8adec8bf57d) width=50% height=50%
+![ESP826MOD Sensor Module](nodemcu-esp8266-pinout.jpg)
 
 
 
