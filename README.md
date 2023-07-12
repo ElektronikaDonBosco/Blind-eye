@@ -69,7 +69,7 @@ docker/run.sh --volume /home/donbosco/jetson-inference/Blind-eye/:/Blind-eye #Be
 
 ![](assets/2023-05-03_101412.png)
 
-2 - The NodeMCU must connect to the Wi-Fi to get information from the jetson nano. We must set the Wi-Fi network and the password of the network in the NodeMCU code. It may be necessary to change the Wi-Fi of the ESP8266 (NodeMCU) in line 13 of the code.
+2 - The NodeMCU must connect to the Wi-Fi to get information from the jetson nano. We must set the Wi-Fi network and the password of the network in the NodeMCU code. It may be necessary to change the Wi-Fi of the ESP8266 (NodeMCU) in line 13 of the code. You have that code inside the folder "Arduino"
 
 ![](assets/2023-05-03_101304.png)
 
