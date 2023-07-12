@@ -9,11 +9,14 @@ The communication between the jetson nano and the NodeMCU is done trought Wi-Fi.
 
 ## Material used in the project
 -Jetson Nano
+
 -Webcam
+
 -Vibrators
+
 -Leds
+
 -ESP826MOD Sensor module
--WiFi connection
 
 ## -ESP826MOD Sensor Module Schematic Pinout
 <img src="https://github.com/ElektronikaDonBosco/Blind-eye/blob/master/60893535def1e6e04c6f55b835bcd917.jpg" width=50% height=50%>
