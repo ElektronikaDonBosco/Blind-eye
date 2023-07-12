@@ -1,13 +1,16 @@
 Before starting with the description of the project, we would like to thanks MikelAlda for the help given during the project development.
+
 # Jetson Nano Object detection sensor
 
 The main objetive of this project is to gain the ability to distinguish different object and living beings with the use of a webcam. So thanks to the development of the technology we are able to do such things and once we are able to detect what each thing is this aplication could be very helpful for visually-impaired people.
 The software will be able to analyze the different things he sees and then he would be able to transmit the information to the user.
+There will be 3 vibrators (left, center, right) conected to a NodeMCU device. When the jetson nano detects one element the vibrator asociated to that side will vibrate.
+The communication between the jetson nano and the NodeMCU is done trought Wi-Fi.
 
 ## Material used in the project
 -Jetson Nano
 -Webcam
--Buzzer
+-Vibrators
 -Leds
 -ESP826MOD Sensor module
 -WiFi connection
