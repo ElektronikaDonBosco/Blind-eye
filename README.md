@@ -16,9 +16,9 @@ The communication between the jetson nano and the NodeMCU is done trought Wi-Fi.
 
 -Leds
 
--ESP826MOD Sensor module
+-ESP826MOD Sensor module (NodeMCU)
 
-## -ESP826MOD Sensor Module Schematic Pinout
+## -ESP826MOD (NodeMCU) Sensor Module Schematic Pinout
 <img src="https://github.com/ElektronikaDonBosco/Blind-eye/blob/master/60893535def1e6e04c6f55b835bcd917.jpg" width=50% height=50%>
 
 ## Jetson Nano set up
@@ -65,11 +65,11 @@ docker/run.sh --volume /home/donbosco/jetson-inference/Blind-eye/:/Blind-eye #Be
 
 ## Run inference
 
-1 - In the file "Blind-Eye/main.py", we need to change the ESP8266 IP address in line 10. The jetson nano must know the IP address of the NodeMCU, and it is set here. You can see the Blind-Eye instalation process by clicking [this](https://github.com/ElektronikaDonBosco/Blind-Eye) guide.
+1 - In the file "Blind-Eye/main.py", we need to set the ESP8266 (NodeMCU) IP address in line 10. The jetson nano must know the IP address of the NodeMCU, and it is set here. You can see the Blind-Eye instalation process by clicking [this](https://github.com/ElektronikaDonBosco/Blind-Eye) guide.
 
 ![](assets/2023-05-03_101412.png)
 
-2 - The NodeMCU must connect to the Wi-Fi to get information from the jetson nano. We must set the Wi-Fi network and the password of the network in the NodeMCU code. It may be necessary to change the Wi-Fi of the ESP8266 in line 13 of the Jetson Nano code.
+2 - The NodeMCU must connect to the Wi-Fi to get information from the jetson nano. We must set the Wi-Fi network and the password of the network in the NodeMCU code. It may be necessary to change the Wi-Fi of the ESP8266 (NodeMCU) in line 13 of the code.
 
 ![](assets/2023-05-03_101304.png)
 
