@@ -21,12 +21,10 @@ The communication between the jetson nano and the NodeMCU is done trought Wi-Fi.
 ## -ESP826MOD Sensor Module Schematic Pinout
 <img src="https://github.com/ElektronikaDonBosco/Blind-eye/blob/master/60893535def1e6e04c6f55b835bcd917.jpg" width=50% height=50%>
 
-
-## Jetson Nano
+## Jetson Nano set up
 In the following lines, you will see the procedure to make inference in the Jetson Nano code we have used.
 
-## Jetson Nano set up
-First of all, you have to set up your Jetson Nano, so a good way to get acquainted is to  
+First of all, you have to set up your Jetson Nano, so a good way is to  
 go to [this](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#intro) step by step tutorial.
 
 ## Install dependecies and download packages
