@@ -65,14 +65,13 @@ docker/run.sh --volume /home/donbosco/jetson-inference/Blind-eye/:/Blind-eye #Be
 
 ## Run inference
 
-1 - In the file "Blind-Eye/main.py", we need to set the ESP8266 (NodeMCU) IP address in line 10. The jetson nano must know the IP address of the NodeMCU, and it is set here. You can see the Blind-Eye instalation process by clicking [this](https://github.com/ElektronikaDonBosco/Blind-Eye) guide.
-
-![](assets/2023-05-03_101412.png)
-
-2 - The NodeMCU must connect to the Wi-Fi to get information from the jetson nano. We must set the Wi-Fi network and the password of the network in the NodeMCU code. It may be necessary to change the Wi-Fi of the ESP8266 (NodeMCU) in line 13 of the code. You have that code inside the folder "Arduino"
+1 - The NodeMCU must connect to the Wi-Fi to get information from the jetson nano. We must set the Wi-Fi network and the password of the network in the NodeMCU code. It will be necessary to change the Wi-Fi of the ESP8266 (NodeMCU) in line 13 of the code. You have that code inside the folder "Arduino". When you transfer the program to the NodeMCU device it will send the IP in the serie port, if you open the SerialMonitor you will see the IP. It is neccessary to know the IP in the next point.
 
 ![](assets/2023-05-03_101304.png)
 
+2 - In the file "Blind-Eye/main.py", we need to set the ESP8266 (NodeMCU) IP address in line 10. The jetson nano must know the IP address of the NodeMCU, and it is set here. You can see the Blind-Eye instalation process by clicking [this](https://github.com/ElektronikaDonBosco/Blind-Eye) guide.
+
+![](assets/2023-05-03_101412.png)
 
 3 - Open a Terminal window and run docker
 ```bash
