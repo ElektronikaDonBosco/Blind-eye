@@ -7,7 +7,7 @@ import additionals.globals as gv
 import urllib.request
 import http
 
-base = "http://192.168.1.107/" # Arduino prints the IP of the ESP8266
+base = "http://192.168.1.130/" # Arduino prints the IP of the ESP8266
 
 
 def transfer(my_url):   #use to send and receive data
@@ -23,7 +23,7 @@ def transfer(my_url):   #use to send and receive data
 net = jetson.inference.detectNet("ssd-mobilenet-v2", threshold=0.5)
 camera = jetson.utils.videoSource("/dev/video0")      # '/dev/video0' for V4L2 and 'csi://0' for csi
 display = jetson.utils.videoOutput("display://0") # 'my_video.mp4' for file
-render_img = False
+render_img = True
 
 names = ['unlabeled', 'person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat', 
          'traffic light', 'fire hydrant', 'street sign', 'stop sign', 'parking meter', 'bench', 'bird', 'cat', 
